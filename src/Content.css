@@ -1,5 +1,6 @@
 h1 {
   color: #b83b5e;
+  text-align: center;
 }
 #search-bar,
 #search {
@@ -11,6 +12,9 @@ h1 {
   background: none;
   color: #b83b5e;
 }
+form {
+  text-align: center;
+}
 #search-bar {
   max-width: 120px;
 }
@@ -19,4 +23,8 @@ h1 {
 }
 #search:hover {
   cursor: pointer;
+}
+h2 {
+  color: #b83b5e;
+  text-transform: capitalize;
 }
