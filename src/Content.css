@@ -1,0 +1,22 @@
+h1 {
+  color: #b83b5e;
+}
+#search-bar,
+#search {
+  padding: 8px;
+  margin: 8px;
+  border: solid #b83b5e;
+  border-width: 0.5px;
+  border-radius: 20px;
+  background: none;
+  color: #b83b5e;
+}
+#search-bar {
+  max-width: 120px;
+}
+#search {
+  max-width: 60px;
+}
+#search:hover {
+  cursor: pointer;
+}

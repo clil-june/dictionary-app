@@ -1,0 +1,9 @@
+.dictionary {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  background: linear-gradient(white, #ffcc29);
+  max-width: 300px;
+  border: solid #f0c929;
+  border-radius: 40px;
+  padding: 40px;
+}
