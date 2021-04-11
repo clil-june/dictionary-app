@@ -6,7 +6,7 @@ export default function Content(){
 
   function search(event){
     event.preventDefault();
-    console.log(word);
+    alert(`searching forvthe defenition of ${word}`);
   }
 
   function handleClick(event){
@@ -17,11 +17,10 @@ export default function Content(){
             <h1>
                 Dictionary
             </h1>
-            <form id="search-form" autoComplete="off" onClick={search}>
-                <input type="search" placeholder="Type any word" id="search-bar" onClick={handleClick} />
+            <form id="search-form" autoComplete="off" onSubmit={search} >
+                <input type="search" placeholder="Type any word" id="search-bar" onChange={handleClick} />
                 <input type="submit" value="search" id="search" />
             </form>
-            <h2>{word}</h2>
         </div>
     );
 }
