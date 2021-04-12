@@ -19,3 +19,10 @@ h2 {
   color: #b83b5e;
   text-transform: capitalize;
 }
+h4,
+p {
+  color: #db6400;
+}
+p {
+  font-weight: 600;
+}

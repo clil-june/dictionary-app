@@ -1,9 +1,9 @@
 .dictionary {
   margin: 0 auto;
   font-family: "Montserrat", sans-serif;
-  background: linear-gradient(white, #ffcc29);
+  background: linear-gradient(white, #ffdd70);
   max-width: 300px;
-  border: solid #f0c929;
+  border: solid #ffdd70;
   border-radius: 40px;
   padding: 40px;
 }
