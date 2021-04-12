@@ -2,8 +2,7 @@ h1 {
   color: #b83b5e;
   text-align: center;
 }
-#search-bar,
-#search {
+#search-bar {
   padding: 8px;
   margin: 8px;
   border: solid #b83b5e;
@@ -11,18 +10,10 @@ h1 {
   border-radius: 20px;
   background: none;
   color: #b83b5e;
+  max-width: 150px;
 }
 form {
   text-align: center;
-}
-#search-bar {
-  max-width: 120px;
-}
-#search {
-  max-width: 60px;
-}
-#search:hover {
-  cursor: pointer;
 }
 h2 {
   color: #b83b5e;
