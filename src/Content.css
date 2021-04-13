@@ -1,6 +1,7 @@
 h1 {
   color: #b83b5e;
   text-align: center;
+  font-size: 36px;
 }
 #search-bar {
   padding: 8px;
@@ -18,6 +19,7 @@ form {
 h2 {
   color: #b83b5e;
   text-transform: capitalize;
+  font-size: 30px;
 }
 h4,
 p {
@@ -26,7 +28,13 @@ p {
 p {
   font-weight: 600;
 }
+#definition {
+  font-size: 18px;
+}
 #example {
   margin-top: 10px;
+  font-size: 13px;
+}
+#synonyms {
   font-size: 13px;
 }
