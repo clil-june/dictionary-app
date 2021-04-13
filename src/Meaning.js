@@ -1,6 +1,7 @@
 import React from "react";
 
 export default function Meaning(props){
+	console.log(props.meaning);
     return (
         <div>
         <h4>
@@ -9,9 +10,8 @@ export default function Meaning(props){
         {props.meaning.definitions.map(function(definition, index){
             return (
                 <div key={index}>
-                    <p>{definition.definition}
-                    <br />
-                    <small>"{definition.example}"</small></p>
+                    <p>{definition.definition}</p>
+                    <p id="example"><em>{definition.example}</em></p>
                 </div>
             );
         })}

@@ -26,3 +26,7 @@ p {
 p {
   font-weight: 600;
 }
+#example {
+  margin-top: 10px;
+  font-size: 13px;
+}
