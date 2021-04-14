@@ -25,6 +25,9 @@ h4,
 p {
   color: #db6400;
 }
+h4 {
+  text-transform: uppercase;
+}
 p {
   font-weight: 600;
 }
@@ -37,4 +40,11 @@ p {
 }
 #synonyms {
   font-size: 13px;
+}
+#phonetics-text {
+  color: #b83b5e;
+  margin-left: 15px;
+}
+a {
+  color: #b83b5e;
 }
