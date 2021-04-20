@@ -3,8 +3,8 @@ import axios from "axios";
 import Definition from "./Definition";
 import "./Content.css";
 
-export default function Content(){
-  let [word, setWord]=useState("");
+export default function Content(props){
+  let [word, setWord]=useState("joy");
   let [results, setResults]=useState(null);
 
   function handleResponse(response){
