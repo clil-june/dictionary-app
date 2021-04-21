@@ -41,7 +41,7 @@ export default function Content(props){
             <form id="search-form" autoComplete="off" onSubmit={handleSubmit} >
                 <input type="search" placeholder="Type any word" id="search-bar" onChange={handleChange} />
             </form>
-            <img className="reading" src={reading} />
+            <img className="reading" alt="reading" src={reading} />
             <Definition results={results} />
         </div>
     );}
