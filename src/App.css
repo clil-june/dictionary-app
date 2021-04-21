@@ -1,16 +1,10 @@
-.body {
-  background-image: url(desk.jpg);
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  webkit-background-size: cover;
-}
 .dictionary {
   margin: 0 auto;
   font-family: "Montserrat", sans-serif;
   background: linear-gradient(white, #ffdd70);
-  max-width: 370px;
+  max-width: 400px;
   border-radius: 40px;
   padding: 25px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
+    rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
 }
