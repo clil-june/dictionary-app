@@ -14,7 +14,7 @@ export default function Definition(props) {
   return (
     <div>
       <h2>{results.word}</h2>
-      <Phonetics phonetics={results.phonetics} />
+      <Phonetics phonetics={results.phonetics} word={results.word} />
       {meanings.map((meaning, index) => (
         <div id="meaning" key={index}>
           <Meaning meaning={meaning} />
