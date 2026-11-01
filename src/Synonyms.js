@@ -1,14 +1,17 @@
 import React from "react";
 
-export default function Synonyms(props){
-  if(props.synonyms){
-  return(
-    <div id="synonyms">
-      <p>Synonyms: <br /> {props.synonyms[0]}, {props.synonyms[1]}, {props.synonyms[2]}.</p>
-    </div>
-    
-  );
-  }else{
+export default function Synonyms(props) {
+  const synonyms = Array.isArray(props.synonyms)
+    ? props.synonyms.filter(Boolean).slice(0, 3)
+    : [];
+
+  if (synonyms.length === 0) {
     return null;
   }
+
+  return (
+    <div id="synonyms">
+      <p>Synonyms: <br />{synonyms.join(", ")}.</p>
+    </div>
+  );
 }
